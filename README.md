@@ -7,7 +7,7 @@ Android SafetyNet Attestation API trial
 
 ### To run the app
 - Open the Android project in Android Studio
-- Update the gradle.properties file with the URL of the server (URL of the server below and it should be accessible from the mobile app) and the API key generated for using Google Safety Net as per the [google guidelines](https://developer.android.com/training/safetynet/attestation.html#add-api-key)
+- Update the gradle.properties file with the URL of the server (URL of the server below and it should be accessible from the mobile app. For eg. http://yourserver_public_ip:port/) and the API key generated for using Google Safety Net as per the [google guidelines](https://developer.android.com/training/safetynet/attestation.html#add-api-key)
 - Generate a signed APKs with from the source code using a signing key
 - Capture the APK and certificate signing SHA256 hashes following the ***important note*** below
 - Install the APK on a device
